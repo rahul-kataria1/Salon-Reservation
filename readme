@@ -1,1 +1,21 @@
-readme
+Salon Reservation System
+
+A simple salon management web application built with Node.js, Express, MongoDB, and Pug.  
+It includes an Admin Dashboard where you can manage salon services and reservations.
+
+
+Features
+
+Admin Panel
+- Add, edit, delete salon services  
+- Manage customer reservations  
+- View all services and bookings in tables  
+- Simple confirmation prompt before deletion  
+
+Services Management
+- CRUD operations for salon services  
+- Each service includes: name, category, price, and description  
+
+Reservation Management
+- CRUD operations for reservations  
+- Each reservation includes: name, email, date, time and a submit button 
