@@ -1,0 +1,156 @@
+/* ----------------------------
+   Global Styles
+----------------------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* ----------------------------
+     Header & Navigation
+  ----------------------------- */
+  header {
+    background-color: #1e3a8a;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #facc15;
+  }
+  
+  /* ----------------------------
+     Main Content
+  ----------------------------- */
+  main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  /* ----------------------------
+     Lists
+  ----------------------------- */
+  .list li {
+    margin-bottom: 12px;
+  }
+  
+  .list li a {
+    text-decoration: none;
+    color: #3b82f6;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .list li a:hover {
+    color: #10b981;
+  }
+  
+  /* ----------------------------
+     Tables
+  ----------------------------- */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #e5e7eb;
+    padding: 12px 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f3f4f6;
+    font-weight: 600;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9fafb;
+  }
+  
+  /* ----------------------------
+     Buttons & Links
+  ----------------------------- */
+  button, .button {
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-right: 8px;
+  }
+  
+  button:hover, .button:hover {
+    background-color: #2563eb;
+  }
+  
+  .btn {
+    background-color: #ef4444;
+  }
+  
+  .btn:hover {
+    background-color: #b91c1c;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+
+  div {
+    margin-bottom: 15px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  

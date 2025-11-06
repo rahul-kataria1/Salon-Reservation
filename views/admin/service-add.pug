@@ -1,0 +1,19 @@
+extends ../layout
+
+block content
+  h2 Add Services
+  form(action="/admin/services/add/submit" method="POST")
+    div 
+      label(for="name") Service Name:
+      input(type="text" name="name" required)
+    div
+      label(for="category") Category:
+      input(type="text" name="category")
+    div
+      label(for="price") Price:
+      input(type="number" step="0.01" name="price")
+    div
+      label(for="description") Description:
+      textarea(name="description")
+    button(type="submit") Add Service
+    a.button.btn(href="/admin/services") Cancel

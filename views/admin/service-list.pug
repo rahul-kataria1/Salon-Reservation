@@ -1,0 +1,27 @@
+extends ../layout
+
+block content
+  h2 Services Available
+  a.button(href="/admin/services/add") Add New Service
+
+  if service.length
+    table
+      thead
+        tr
+          th Name
+          th Category
+          th Price
+          th Description
+          th Actions
+      tbody
+        each services in service
+          tr
+            td= services.name
+            td= services.category
+            td $#{services.price}
+            td= services.description
+            td
+              a.button(href=`/admin/services/edit?serviceId=${service._id}`) Edit
+              a.button.btn(href=`/admin/services/delete?serviceId=${service._id}` onclick="return confirm('Are you sure you want to delete this service?');") Delete
+  else
+    p No services yet.
